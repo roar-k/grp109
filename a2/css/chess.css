@@ -67,7 +67,7 @@ body {
 }
 
 /* Ben: Makes sure each row starts a new line */
-#clear {
+.clear {
   clear: both;
 }
 /* Mumtaas: Minor style additions or edits */
