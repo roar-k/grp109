@@ -69,6 +69,7 @@ img {
 /* Ben: Adds a background image */
 body {
    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+   background-size: cover;
 }
 
 /* Ben: Makes sure each row starts a new line */
