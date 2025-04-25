@@ -25,9 +25,14 @@
 
 /* Ben: Styling the footer with the validator */
 #footer {
-   border: solid 1px;
+   position: fixed;
+   text-align: center;
+   border-top: solid 1px;
    padding: 10px;
-   margin: 10px;
+   width: 100%;
+   background-color: lightblue;
+   bottom: 0px;
+   left: 0px;
 }
 
 /* Ben: Making sure the chessboard is properly aligned and centered */
