@@ -1,14 +1,13 @@
 /* Ben: Defines the style of each row on the chessboard */
 .row {
    position: relative;
-   margin-left: 10%;
-   margin-right: 10%;
+   margin: 0 auto;
 }
 
 /* Ben: Defines the look of white cells on the board */
 .white {
    border: 1px solid black;
-   width: 10%;
+   width: 60px;
    height: 60px;
    background-color: white;
    float: left;
@@ -17,7 +16,7 @@
 /* Ben: Defines the look of black cells on the board */
 .black {
    border: 1px solid black;
-   width: 10%;
+   width: 60px;
    height: 60px;
    background-color: #787878;
    float: left;
@@ -37,10 +36,9 @@
 
 /* Ben: Making sure the chessboard is properly aligned and centered */
 #container {
-   margin-top: 20%;
-   margin-left: 10%;
-   margin-right: 10%;
-   margin-bottom: 5%;
+   display: inline-block;
+   margin-top: 200px;
+   text-align: left;
 }
 
 /* Ben: Centers the title and styles it with a font and background color */
@@ -62,14 +60,20 @@
 
 /* Ben: Ensures that the image on each cell is properly aligned */
 img {
-   margin-left: 5px;
-   margin-top: 10px;
+   margin-left: 15px;
+   margin-top: 12px;
  }
 
-/* Ben: Adds a background image */
-body {
-   background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+/* Ben: Adds a background image and centers it*/
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   text-align: center;
    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
 
 /* Ben: Makes sure each row starts a new line */
